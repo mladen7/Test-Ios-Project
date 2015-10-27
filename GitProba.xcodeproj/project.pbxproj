@@ -15,6 +15,7 @@
 		B6ED8C9C1BDFF74C003F95C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6ED8C9A1BDFF74C003F95C2 /* LaunchScreen.storyboard */; };
 		B6ED8CA71BDFF74C003F95C2 /* GitProbaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED8CA61BDFF74C003F95C2 /* GitProbaTests.m */; };
 		B6ED8CB21BDFF74C003F95C2 /* GitProbaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED8CB11BDFF74C003F95C2 /* GitProbaUITests.m */; };
+		B6ED8CC11BDFFE39003F95C2 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED8CC01BDFFE39003F95C2 /* Test.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6ED8CAD1BDFF74C003F95C2 /* GitProbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitProbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6ED8CB11BDFF74C003F95C2 /* GitProbaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitProbaUITests.m; sourceTree = "<group>"; };
 		B6ED8CB31BDFF74C003F95C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6ED8CBF1BDFFE39003F95C2 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		B6ED8CC01BDFFE39003F95C2 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		B6ED8C801BDFF74C003F95C2 = {
 			isa = PBXGroup;
 			children = (
+				B6ED8CBF1BDFFE39003F95C2 /* Test.h */,
+				B6ED8CC01BDFFE39003F95C2 /* Test.m */,
 				B6ED8C8B1BDFF74C003F95C2 /* GitProba */,
 				B6ED8CA51BDFF74C003F95C2 /* GitProbaTests */,
 				B6ED8CB01BDFF74C003F95C2 /* GitProbaUITests */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6ED8C941BDFF74C003F95C2 /* ViewController.m in Sources */,
+				B6ED8CC11BDFFE39003F95C2 /* Test.m in Sources */,
 				B6ED8C911BDFF74C003F95C2 /* AppDelegate.m in Sources */,
 				B6ED8C8E1BDFF74C003F95C2 /* main.m in Sources */,
 			);
